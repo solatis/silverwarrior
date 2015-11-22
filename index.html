@@ -184,7 +184,7 @@
           </p>
 
           <form method="post" action="https://getsimpleform.com/messages?form_api_token=0b9ce40981cd36c4e7f5242d5b7ae029" id="contactform">
-            <input type='hidden' name='redirect_to' value='{{ "/join_thanks.html"  | prepend: site.baseurl | prepend: site.url }}' />
+            <input type='hidden' name='redirect_to' value='http://www.silverwarrior.org/join_thanks.html' />
             <div class="row 100%">
               <div class="6u 12u(mobile)">
 	        <label>In-game name</label>
@@ -196,16 +196,16 @@
 	      </div>
               <div class="6u 12u(mobile)">
 	        <label>Current clan</label>
-	        <input type="text" name="name" class="smoothborder" placeholder="Your current clan name *"/>
+	        <input type="text" name="clan" class="smoothborder" placeholder="Your current clan name *"/>
 	      </div>
               <div class="6u 12u(mobile)">
 	        <label>Current clan hashtag</label>
-	        <input type="text" name="email" class="smoothborder" placeholder="#Hashtag of your curreny clan *"/>
+	        <input type="text" name="clantag" class="smoothborder" placeholder="#Hashtag of your curreny clan *"/>
 	      </div>
 
               <div class="12u 12u(mobile)">
 	        <label>Request</label>
-	        <textarea name="comment" class="smoothborder ctextarea" rows="4" placeholder="Why do you want to leave your old clan, and why do you want to join Silver Warrior *"></textarea>
+	        <textarea name="request" class="smoothborder ctextarea" rows="4" placeholder="Why do you want to leave your old clan, and why do you want to join Silver Warrior *"></textarea>
               </div>
             </div>
             <div>&nbsp;</div>
